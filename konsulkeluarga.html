@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konsultasi Keluarga - Satu Jiwa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="AylaHasyaXI-7.css">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        #konsultasi-keluarga {
+            background-color: white;
+            padding: 60px 20px;
+            margin: 40px auto;
+            max-width: 1000px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .konsultasi-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: #4c6ef5;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .konsultasi-info h2 {
+            font-size: 1.8rem;
+            margin: 20px 0 10px;
+            color: #6a83f2;
+        }
+
+        .konsultasi-info p,
+        .konsultasi-info ul {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .konsultasi-info ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 30px;
+        }
+
+        #consultation {
+            padding: 50px;
+            text-align: center;
+            background-color: #ffffff;
+            margin: 20px auto;
+            max-width: 1000px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .psychiatrist-card {
+            background-color: #7e9cfe;
+            padding: 30px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 600px;
+            display: flex;
+            align-items: flex-start;
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .psychiatrist-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .psychiatrist-card img {
+            height: 200px;
+            width: flex;
+            border-radius: 15px;
+            margin-right: 20px;
+            margin-top: 2px;
+        }
+        
+        .psychiatrist-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .psychiatrist-card p {
+            font-size: 1.2rem;
+            color: #f9f9f9;
+            margin-bottom: 20px;
+        }
+        
+        .cta-btn {
+            background-color: #6a83f2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+        
+        .cta-btn:hover {
+            background-color: #4c6ef5;
+        }
+
+        @media (max-width: 768px) {
+            .konsultasi-content h1 {
+                font-size: 2.2rem;
+            }
+
+            .konsultasi-info h2 {
+                font-size: 1.6rem;
+
+                .psychiatrist-card {
+                    max-width: 100%;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                .psychiatrist-card img {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+            }
+
+            form input,
+            form textarea {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Satu Jiwa</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#">Tentang Kami</a>
+                    <ul class="dropdown-content">
+                        <li><a href="visimisi.html">Visi & Misi</a></li>
+                        <li><a href="timkami.html">Tim Kami</a></li>
+                    </ul>
+                </li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="konsultasi-keluarga">
+            <div class="konsultasi-content">
+                <h1>Konsultasi Keluarga</h1>
+                <p align="justify">Layanan konsultasi keluarga kami siap membantu Anda dan keluarga menemukan solusi untuk permasalahan keluarga yang dihadapi. Bersama, kita akan mencapai kesejahteraan dan keharmonisan.</p>
+            </div>
+
+            <div class="konsultasi-info">
+                <h2>Apa itu Konsultasi Keluarga?</h2>
+                <p align="justify">Konsultasi keluarga melibatkan sesi dengan seluruh anggota keluarga atau beberapa di antaranya, yang bertujuan untuk memperbaiki dinamika keluarga, meningkatkan komunikasi, dan menyelesaikan konflik yang ada. Dalam sesi ini, seorang psikolog atau terapis akan bekerja dengan keluarga untuk mengidentifikasi masalah yang mempengaruhi hubungan antar anggota keluarga, serta membantu menemukan solusi yang efektif.<br><br>Pendekatan dalam konsultasi keluarga dapat mencakup berbagai teknik, seperti terapi sistemik yang melihat keluarga sebagai satu kesatuan yang saling mempengaruhi, dan terapi struktural yang fokus pada pola interaksi dan struktur keluarga. Tujuannya adalah untuk menciptakan perubahan positif dalam cara anggota keluarga berinteraksi dan berkomunikasi.</p>
+
+                <h2>Manfaat Konsultasi Keluarga</h2>
+                <ul>
+                    <li><b>Peningkatan Komunikasi:</b> Membantu anggota keluarga belajar cara berkomunikasi yang lebih efektif dan menghargai perspektif masing-masing.</li>
+                    <li><b>Penyelesaian Konflik:</b> Menyediakan alat dan strategi untuk mengatasi dan menyelesaikan konflik secara konstruktif.</li>
+                    <li><b>Penguatan Hubungan:</b> Membantu memperkuat ikatan emosional dan mendukung satu sama lain.</li>
+                    <li><b>Penanganan Krisis:</b> Memberikan dukungan dalam mengatasi situasi krisis seperti kehilangan, perceraian, atau perubahan besar lainnya.</li>
+                </ul>
+
+                <h2>Cara Mengatur Pertemuan</h2>
+                <p>Anda dapat mengatur pertemuan untuk sesi konsultasi keluarga dengan mengisi formulir di bawah ini atau menghubungi kami langsung. Kami akan membantu Anda memilih waktu yang sesuai untuk seluruh anggota keluarga.</p>
+
+                <section id="consultation">
+                    <h2>Pilih Konsultan Keluarga</h2>
+                    <p>Pilih salah satu konsultan di bawah ini untuk sesi konsultasi keluarga:</p>
+        
+                    <div class="psychiatrist-card">
+                        <img src="Foto/desi.jpg" alt="Dr. Andi Wijaya">
+                        <div>
+                            <h3>Dr. Desi Widianto, Sp.KJ</h3>
+                            <p>Spesialis: Konflik Keluarga, Komunikasi, Relasi Anak-Orang Tua</p>
+                            <a href="#" class="cta-btn">Jadwalkan Konsultasi</a>
+                        </div>
+                    </div>
+        
+                    <div class="psychiatrist-card">
+                        <img src="Foto/andre.jpg" alt="Dr. Dewi Sartika">
+                        <div>
+                            <h3>Dr. Silas Andre, Sp.KJ</h3>
+                            <p>Spesialis: Masalah Pernikahan, Pola Asuh, Keluarga Berkonflik</p>
+                            <a href="#" class="cta-btn">Jadwalkan Konsultasi</a>
+                        </div>
+                    </div>
+        
+                    <div class="psychiatrist-card">
+                        <img src="Foto/ahmad.jpg" alt="Dr. Ahmad Kusuma">
+                        <div>
+                            <h3>Dr. Ahmad Kusuma, Sp.KJ</h3>
+                            <p>Spesialis: Skizofrenia dalam Keluarga, Keluarga dengan Anak Berkebutuhan Khusus</p>
+                            <a href="#" class="cta-btn">Jadwalkan Konsultasi</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        
+
+    <footer>
+        <div class="footer-container">
+            <h1 align="left">Satu Jiwa</h1>
+        </div>
+        
+        <div class="footer-content">
+            <div class="footer-section sitemap">
+                <h4>Site Map</h4>
+                <div class="sitemap-columns">
+                    <ul class="sitemap-list left-column">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Promo</a></li>
+                    </ul>
+                    <ul class="sitemap-list right-column">
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">Corporate Partnership</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="footer-section customer-service">
+                <h4>Layanan Pengaduan Konsumen</h4>
+                <p>
+                    PT Media Dokter Investama<br>
+                    Jl. H.R. Rasuna Said Kav B32-33, Jakarta Selatan<br>
+                    help@satujiwa.com / 021-5095-9900
+                </p>
+                <p>
+                    Direktorat Jenderal Perlindungan Konsumen dan Tertib Niaga<br>
+                    Kementerian Perdagangan Republik Indonesia<br>
+                    0853 1111 1010 (WhatsApp)
+                </p>
+            </div>
+        
+            <div class="footer-section download">
+                <h4>Download App di</h4>
+                <div class="app-links">
+                    <a href="#"><img src="Foto/google-play-store.jpg" alt="Google Play"></a>
+                    <a href="#"><img src="Foto/app-store.jpg" alt="App Store"></a>
+                </div>
+                <p>Apakah kamu Dokter?</p>
+                <a href="#" class="register-button">DAFTAR</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© Satu Jiwa, 2024. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>    
+</body>
+</html>

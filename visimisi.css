@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #a41344;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    background-color: #D91656;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu li {
+    position: relative;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    color: #7695FF;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f4f4f4;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+.dropdown-content li a {
+    padding: 10px;
+    color: #333;
+    text-align: left;
+    font-size: 0.9rem;
+    display: block;
+}
+
+.dropdown-content li a:hover {
+    background-color: #7695FF;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #D91656;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px;
+    }
+
+    .nav-menu li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, text-decoration 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #7695FF;
+    font-size: 18px;
+    background-color: #5066af56;
+    border-radius: 5px;
+    transition: color 0.3s, font-size 0.3s, background-color 0.3s, text-decoration 0.3s;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #7695FF;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px;
+    }
+
+    .nav-menu li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+#vision-mission {
+    background-color: #fff;
+}
+
+.container {
+    background: url('Foto/ilustrasi2.gif') no-repeat center center/cover;
+    height: 600px;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+#vision-mission h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    color: #7695FF;
+    margin-bottom: 50px;
+}
+
+#vision-mission h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+#vision-mission h2 {
+    font-size: 2rem;
+    color: #436ef9;
+    margin-bottom: 20px;
+}
+
+#vision-mission p, #vision-mission ul {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #3d59a1; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+footer h1 {
+    font-family:  'Lora';
+}
+
+.footer-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 40px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 220px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section.customer-service {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer-section.customer-service p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section.download .app-links img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.footer-section.download .register-button {
+    background-color: #D91656;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.footer-section.download .register-button:hover {
+    background-color: #b21347;
+}
+
+.footer-section.sitemap {
+    display: flex;
+    flex-direction: column;
+}
+
+.sitemap-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitemap-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sitemap-list li {
+    margin-bottom: 5px;
+}
+
+.sitemap-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sitemap-list a:hover {
+    text-decoration: underline;
+}
+
+.left-column {
+    margin-right: 20px;
+}
+
+.right-column {
+    margin-left: 20px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    background-color: #2d4173;
+    padding-bottom: 20px
+}
+
+.footer-bottom p {
+    font-size: 20px;
+    color: #cccccc;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+    }
+
+    .footer-section h4 {
+        margin-top: 10px;
+    }
+}
+
+#article-content {
+    padding: 40px;
+    text-align: left;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+#article-content h2 {
+    margin-top: 30px;
+}
+
+#article-content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#konsultasi-karir {
+    background-color: white;
+    padding: 60px 20px;
+    margin: 40px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.konsultasi-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #7695FF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.konsultasi-info h2 {
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+    color: #7695FF;
+}
+
+.konsultasi-info p,
+.konsultasi-info ul {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.konsultasi-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+#consultation {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.career-counselor-card {
+    background-color: #7695FF;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.career-counselor-card img {
+    width: 200px;
+    height: flex;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+.career-counselor-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.career-counselor-card p {
+    font-size: 1.2rem;
+    color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #6a83f2;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #4c6ef5;
+}
+
+@media (max-width: 768px) {
+    .konsultasi-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .konsultasi-info h2 {
+        font-size: 1.6rem;
+    }
+
+    .career-counselor-card {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .career-counselor-card img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    form input,
+    form textarea {
+        max-width: 100%;
+    }
+}

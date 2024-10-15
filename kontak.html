@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Satu Jiwa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="AylaHasyaaXI-7.css">
+    <style>
+        #contact-hero {
+            background: url(Foto/ilustrasi5.gif) no-repeat center center/cover;
+            background-color: #4f78fe;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        #contact-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        #contact-hero p {
+            font-size: 1.2rem;
+            color: #f4f4f4;
+        }
+
+        #contact-content {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #contact-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #7695FF;
+        }
+
+        #contact-content p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input, form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 10px;
+            background-color: #7695FF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        form button:hover {
+            background-color: #4e62a3;
+        }
+
+        @media (max-width: 768px) {
+            #contact-hero h1 {
+                font-size: 2.2rem;
+            }
+
+            #contact-content h2 {
+                font-size: 2rem;
+            }
+
+            #contact-content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Satu Jiwa</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#">Tentang Kami</a>
+                    <ul class="dropdown-content">
+                        <li><a href="visimisi.html">Visi & Misi</a></li>
+                        <li><a href="timkami.html">Tim Kami</a></li>
+                    </ul>
+                </li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section id="contact-hero">
+        <div class="hero-content">
+            <h1>Kontak Kami</h1>
+            <p>Silakan isi formulir di bawah untuk menghubungi kami.</p>
+        </div>
+    </section>
+
+    <section id="contact-content">
+        <h2>Hubungi Kami</h2>
+        <p>Anda juga bisa menghubungi kami melalui:</p>
+        <p>Email: <a href="mailto:info@satujiwa.com">info@satujiwa.com</a></p>
+        <p>Telepon: <a href="tel:+62123456789">+62 123 456 789</a></p>
+
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Nama" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="5" placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <section class="map">
+            <h2>Lokasi Kami</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7156409707927!2d107.60646177401755!3d-6.924555467775447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e79d230c28a1%3A0x16d8120ea26e1296!2sTriumi!5e0!3m2!1sid!2sid!4v1728472392599!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <h1 align="left">Satu Jiwa</h1>
+        </div>
+        
+        <div class="footer-content">
+            <div class="footer-section sitemap">
+                <h4>Site Map</h4>
+                <div class="sitemap-columns">
+                    <ul class="sitemap-list left-column">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Promo</a></li>
+                    </ul>
+                    <ul class="sitemap-list right-column">
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">Corporate Partnership</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="footer-section customer-service">
+                <h4>Layanan Pengaduan Konsumen</h4>
+                <p>
+                    PT Media Dokter Investama<br>
+                    Jl. H.R. Rasuna Said Kav B32-33, Jakarta Selatan<br>
+                    help@satujiwa.com / 021-5095-9900
+                </p>
+                <p>
+                    Direktorat Jenderal Perlindungan Konsumen dan Tertib Niaga<br>
+                    Kementerian Perdagangan Republik Indonesia<br>
+                    0853 1111 1010 (WhatsApp)
+                </p>
+            </div>
+        
+            <div class="footer-section download">
+                <h4>Download App di</h4>
+                <div class="app-links">
+                    <a href="#"><img src="Foto/google-play-store.jpg" alt="Google Play"></a>
+                    <a href="#"><img src="Foto/app-store.jpg" alt="App Store"></a>
+                </div>
+                <p>Apakah kamu Dokter?</p>
+                <a href="#" class="register-button">DAFTAR</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© Satu Jiwa, 2024. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>    
+</body>
+</html>

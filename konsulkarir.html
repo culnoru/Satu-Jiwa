@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konsultasi Karir - Satu Jiwa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="AylaHasyaXI-7.css">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        #konsultasi-karir {
+            background-color: white;
+            padding: 60px 20px;
+            margin: 40px auto;
+            max-width: 1000px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .konsultasi-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: #5c81fa;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .konsultasi-info h2 {
+            font-size: 1.8rem;
+            margin: 20px 0 10px;
+            color: #6588fe;
+        }
+
+        .konsultasi-info p,
+        .konsultasi-info ul {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .konsultasi-info ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 30px;
+        }
+
+        #consultation {
+            padding: 50px;
+            text-align: center;
+            background-color: #ffffff;
+            margin: 20px auto;
+            max-width: 1000px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .career-counselor-card {
+            background-color: #7e9cfe;
+            padding: 30px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 600px;
+            display: flex;
+            align-items: flex-start;
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .career-counselor-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .career-counselor-card img {
+            width: 200px;
+            height: flex;
+            border-radius: 15px;
+            margin-right: 20px;
+            margin-top: 2px;
+        }
+
+        .career-counselor-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .career-counselor-card p {
+            font-size: 1.2rem;
+            color: #f9f9f9;
+            margin-bottom: 20px;
+        }
+
+        .cta-btn {
+            background-color: #6a83f2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #4c6ef5;
+        }
+
+        @media (max-width: 768px) {
+            .konsultasi-content h1 {
+                font-size: 2.2rem;
+            }
+
+            .konsultasi-info h2 {
+                font-size: 1.6rem;
+            }
+
+            .career-counselor-card {
+                max-width: 100%;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .career-counselor-card img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            form input,
+            form textarea {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Satu Jiwa</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li class="dropdown">
+                    <a href="#">Tentang Kami</a>
+                    <ul class="dropdown-content">
+                        <li><a href="visimisi.html">Visi & Misi</a></li>
+                        <li><a href="timkami.html">Tim Kami</a></li>
+                    </ul>
+                </li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="testimoni.html">Testimoni</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="konsultasi-karir">
+            <div class="konsultasi-content">
+                <h1>Konsultasi Karir</h1>
+                <p align="justify">Kami menyediakan layanan konsultasi karir untuk membantu Anda menentukan jalur karir yang sesuai dengan minat dan bakat Anda.</p>
+            </div>
+
+            <div class="konsultasi-info">
+                <h2>Apa Itu Konsultasi Karir?</h2>
+                <p align="justify">Konsultasi karir adalah layanan yang dirancang untuk membantu Anda membuat keputusan terkait karir yang tepat, mengembangkan potensi diri, dan mencapai tujuan profesional Anda. Melalui sesi konsultasi ini, seorang konselor karir akan bekerja sama dengan Anda untuk mengevaluasi minat, keterampilan, dan nilai-nilai Anda, serta membantu merancang rencana karir yang sesuai dengan aspirasi dan tujuan Anda.<br><br>Pendekatan yang digunakan dalam konsultasi karir meliputi:</p>
+                <ul>
+                    <li><b>Evaluasi Diri:</b> Membantu Anda mengidentifikasi kekuatan dan kelemahan, serta memahami minat dan motivasi Anda.</li>
+                    <li><b>Rencana Aksi:</b> Mengembangkan langkah-langkah konkret yang diperlukan untuk mencapai tujuan karir Anda, termasuk pendidikan tambahan, pelatihan, atau pengalaman kerja yang relevan.</li>
+                    <li><b>Penetapan Tujuan:</b> Menyusun tujuan jangka pendek dan jangka panjang yang realistis dan terukur.</li>
+                    <li><b>Pengembangan Keterampilan:</b> Menyediakan bimbingan dalam mengembangkan keterampilan yang diperlukan untuk sukses di bidang pilihan Anda, seperti keterampilan komunikasi, kepemimpinan, dan manajemen waktu.</li>
+                    <li><b>Strategi Pencarian Kerja:</b> Memberikan saran tentang cara membuat resume yang efektif, mempersiapkan wawancara kerja, dan membangun jaringan profesional.</li>
+                </ul>
+
+                <h2>Manfaat Konsultasi Karir</h2>
+                <ul>
+                    <li>Mendapatkan panduan untuk perencanaan karir.</li>
+                    <li>Meningkatkan keterampilan wawancara dan pencarian kerja.</li>
+                    <li>Mengidentifikasi kekuatan dan area pengembangan diri.</li>
+                </ul>
+
+                <h2>Atur Pertemuan dengan Konselor Karir</h2>
+                <p>Isi formulir atau hubungi kami untuk menjadwalkan sesi konsultasi karir.</p>
+
+                <section id="consultation">
+                    <h2>Konselor Karir</h2>
+                    <p>Pilih salah satu konselor karir di bawah ini untuk sesi konsultasi pribadi:</p>
+
+                    <div class="career-counselor-card">
+                        <img src="Foto/aldi.jpg" alt="Aldi Wijaya">
+                        <div>
+                            <h3>Aldi Wijaya</h3>
+                            <p>Spesialis: Pengembangan Karir, Wawancara, Motivasi Kerja</p>
+                            <a href="#" class="cta-btn">Jadwalkan Konsultasi</a>
+                        </div>
+                    </div>
+
+                    <div class="career-counselor-card">
+                        <img src="Foto/irene.jpg" alt="Irene Setiawan">
+                        <div>
+                            <h3>Irene Setiawan</h3>
+                            <p>Spesialis: Perencanaan Karir, Peningkatan Skill, Strategi Pekerjaan</p>
+                            <a href="#" class="cta-btn">Jadwalkan Konsultasi</a>
+                        </div>
+                    </div>
+
+                    <div class="career-counselor-card">
+                        <img src="Foto/raka.jpg" alt="Raka Pratama">
+                        <div>
+                            <h3>Raka Pratama</h3>
+                            <p>Spesialis: Pengembangan Kepemimpinan, Kinerja Tim, Pengambilan Keputusan</p>
+                            <a href="#" class="cta-btn">Jadwalkan Konsultasi</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+    <footer>
+        <div class="footer-container">
+            <h1 align="left">Satu Jiwa</h1>
+        </div>
+        
+        <div class="footer-content">
+            <div class="footer-section sitemap">
+                <h4>Site Map</h4>
+                <div class="sitemap-columns">
+                    <ul class="sitemap-list left-column">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Promo</a></li>
+                    </ul>
+                    <ul class="sitemap-list right-column">
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">Corporate Partnership</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="footer-section customer-service">
+                <h4>Layanan Pengaduan Konsumen</h4>
+                <p>
+                    PT Media Dokter Investama<br>
+                    Jl. H.R. Rasuna Said Kav B32-33, Jakarta Selatan<br>
+                    help@satujiwa.com / 021-5095-9900
+                </p>
+                <p>
+                    Direktorat Jenderal Perlindungan Konsumen dan Tertib Niaga<br>
+                    Kementerian Perdagangan Republik Indonesia<br>
+                    0853 1111 1010 (WhatsApp)
+                </p>
+            </div>
+        
+            <div class="footer-section download">
+                <h4>Download App di</h4>
+                <div class="app-links">
+                    <a href="#"><img src="Foto/google-play-store.jpg" alt="Google Play"></a>
+                    <a href="#"><img src="Foto/app-store.jpg" alt="App Store"></a>
+                </div>
+                <p>Apakah kamu Dokter?</p>
+                <a href="#" class="register-button">DAFTAR</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© Satu Jiwa, 2024. ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>    
+</body>
+</html>
